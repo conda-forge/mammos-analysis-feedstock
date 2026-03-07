@@ -1,5 +1,5 @@
 {% set name = "mammos-analysis" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_analysis-{{ version }}.tar.gz
-  sha256: 208eb4193497897737fca9158a202de6913fbf5efd739e4910044af93cf71c91
+  sha256: 73b459bcc535fbd74cca504cad7e4c082989653aef61205d0a98f73dfac894f9
 
 build:
   noarch: python
@@ -24,10 +24,10 @@ requirements:
     - python >={{ python_min }}
     - mammos-entity >=0.8.0
     - mammos-units
+    - matplotlib-base
     - numpy
     - pydantic
     - scipy
-    - matplotlib-base
 
 test:
   imports:
