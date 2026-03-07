@@ -24,10 +24,10 @@ requirements:
     - python >={{ python_min }}
     - mammos-entity >=0.8.0
     - mammos-units
+    - matplotlib-base
     - numpy
     - pydantic
     - scipy
-    - matplotlib-base
 
 test:
   imports:
