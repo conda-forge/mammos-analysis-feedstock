@@ -1,5 +1,5 @@
 {% set name = "mammos-analysis" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_analysis-{{ version }}.tar.gz
-  sha256: 8a7c2d306b001791fc1b3b6b8adbdb3050105e6f9aebf85226c7faee2d5e8294
+  sha256: 29a7849298eaed936f322970fe0c339116a29d6f7059a8ef783c1b44edfd5dc2
 
 build:
   noarch: python
